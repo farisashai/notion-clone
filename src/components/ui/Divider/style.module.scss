@@ -1,0 +1,7 @@
+@use 'src/styles/vars.scss' as vars;
+
+.divider {
+  border-left: 1px solid vars.$border-1;
+  height: 80%;
+  width: 1px;
+}

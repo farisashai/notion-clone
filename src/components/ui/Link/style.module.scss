@@ -1,0 +1,19 @@
+@use 'src/styles/vars.scss' as vars;
+
+.link {
+  align-items: center;
+  background-color: vars.$bg-1;
+  border: 1px solid vars.$border-1;
+  color: vars.$white;
+  display: flex;
+  gap: 4px;
+  padding: 6px 12px;
+
+  &[data-variant='text'] {
+    border: none;
+  }
+
+  &[data-variant='button']:hover {
+    background-color: vars.$bg-2;
+  }
+}
